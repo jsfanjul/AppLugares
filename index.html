@@ -227,18 +227,7 @@
                 }
 
                 graphicsLayer.add(graphic);
-
-                if (!firstGraphicAdded) {
-                  firstGraphicAdded = true;
-                  const view = mapComponent.view; // Obtener la vista
-                  view.openPopup({
-                    location: graphic.geometry,
-                    features: [graphic]
-                  });
-
-
-                }
-
+               
 
               })
 
